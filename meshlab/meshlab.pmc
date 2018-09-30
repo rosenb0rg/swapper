@@ -1,0 +1,311 @@
+﻿[PMC Code v5.0.5]|F3||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||MeshLab 2016.12 - [Project_1] ahk_class Qt5QWindowIcon|||
+2|[Pause]||1|300|Sleep|||||
+3|Left Move & Click|858, 541 Left, Down|1|0|Click|||||
+4|Left Move & Click|858, 541 Left, Up|1|0|Click|||||
+5|[Pause]||1|200|Sleep|||||
+6|LShift Down|{LShift Down}|1|0|Send|||||
+7|[Pause]||1|100|Sleep|||||
+8|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+9|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+10|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+11|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+12|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+13|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+14|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+15|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+16|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+17|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+18|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+19|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+20|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+21|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+22|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+23|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+24|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+25|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+26|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+27|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+28|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+29|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+30|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+31|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+32|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+33|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+34|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+35|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+36|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+37|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+38|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+39|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+40|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+41|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+42|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+43|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+44|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+45|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+46|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+47|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+48|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+49|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+50|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+51|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+52|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+53|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+54|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+55|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+56|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+57|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+58|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+59|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+60|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+61|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+62|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+63|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+64|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+65|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+66|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+67|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+68|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+69|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+70|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+71|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+72|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+73|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+74|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+75|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+76|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+77|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+78|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+79|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+80|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+81|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+82|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+83|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+84|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+85|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+86|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+87|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+88|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+89|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+90|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+91|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+92|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+93|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+94|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+95|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+96|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+97|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+98|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+99|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+100|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+101|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+102|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+103|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+104|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+105|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+106|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+107|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+108|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+109|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+110|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+111|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+112|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+113|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+114|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+115|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+116|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+117|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+118|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+119|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+120|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+121|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+122|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+123|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+124|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+125|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+126|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+127|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+128|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+129|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+130|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+131|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+132|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+133|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+134|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+135|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+136|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+137|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+138|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+139|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+140|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+141|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+142|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+143|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+144|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+145|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+146|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+147|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+148|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+149|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+150|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+151|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+152|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+153|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+154|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+155|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+156|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+157|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+158|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+159|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+160|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+161|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+162|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+163|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+164|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+165|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+166|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+167|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+168|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+169|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+170|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+171|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+172|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+173|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+174|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+175|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+176|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+177|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+178|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+179|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+180|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+181|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+182|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+183|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+184|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+185|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+186|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+187|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+188|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+189|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+190|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+191|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+192|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+193|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+194|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+195|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+196|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+197|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+198|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+199|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+200|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+201|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+202|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+203|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+204|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+205|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+206|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+207|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+208|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+209|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+210|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+211|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+212|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+213|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+214|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+215|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+216|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+217|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+218|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+219|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+220|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+221|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+222|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+223|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+224|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+225|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+226|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+227|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+228|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+229|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+230|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+231|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+232|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+233|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+234|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+235|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+236|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+237|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+238|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+239|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+240|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+241|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+242|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+243|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+244|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+245|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+246|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+247|Mouse Wheel Down|WheelDown, |1|0|Click|||||
+248|[Pause]||1|100|Sleep|||||
+249|LShift Up|{LShift Up}|1|0|Send|||||
+250|[Pause]||1|100|Sleep|||||
+251|Left Move & Click|1740, 661 Left, Down|1|0|Click|||||
+252|[Pause]||1|100|Sleep|||||
+253|Left Move & Click|1740, 661 Left, Up|1|0|Click|||||
+254|[Pause]||1|100|Sleep|||||
+255|Left Move & Click|1822, 702 Left, Down|1|0|Click|||||
+256|[Pause]||1|100|Sleep|||||
+257|Left Move & Click|1822, 702 Left, Up|1|0|Click|||||
+258|[Pause]||1|100|Sleep|||||
+259|LAlt Down|{LAlt Down}|1|0|Send|||||
+260|[Pause]||1|25|Sleep|||||
+261|f|{f}|1|0|Send|||||
+262|[Pause]||1|25|Sleep|||||
+263|LAlt Up|{LAlt Up}|1|0|Send|||||
+264|[Pause]||1|25|Sleep|||||
+265|t|{t}|1|0|Send|||||
+266|[Pause]||1|25|Sleep|||||
+267|[Pause]||1|100|Sleep|||||
+268|WinActivate||1|0|WinActivate||Save snapshot ahk_class Qt5QWindowIcon|||
+269|Tab|{Tab}|1|0|Send|||||
+270|[Pause]||1|25|Sleep|||||
+271|Tab|{Tab}|1|0|Send|||||
+272|[Pause]||1|25|Sleep|||||
+273|LControl Down|{LControl Down}|1|0|Send|||||
+274|[Pause]||1|25|Sleep|||||
+275|v|{v}|1|0|Send|||||
+276|[Pause]||1|25|Sleep|||||
+277|LControl Up|{LControl Up}|1|0|Send|||||
+278|[Pause]||1|25|Sleep|||||
+279|Backspace|{Backspace}|1|0|Send|||||
+280|[Pause]||1|25|Sleep|||||
+281|Tab|{Tab}|1|0|Send|||||
+282|[Pause]||1|25|Sleep|||||
+283|Tab|{Tab}|1|0|Send|||||
+284|[Pause]||1|25|Sleep|||||
+285|Tab|{Tab}|1|0|Send|||||
+286|[Pause]||1|25|Sleep|||||
+287|Tab|{Tab}|1|0|Send|||||
+288|[Pause]||1|25|Sleep|||||
+289|Down|{Down}|1|0|Send|||||
+290|[Pause]||1|25|Sleep|||||
+291|Tab|{Tab}|1|0|Send|||||
+292|[Pause]||1|25|Sleep|||||
+293|Tab|{Tab}|1|0|Send|||||
+294|[Pause]||1|25|Sleep|||||
+295|Tab|{Tab}|1|0|Send|||||
+296|[Pause]||1|25|Sleep|||||
+297|Tab|{Tab}|1|0|Send|||||
+298|[Pause]||1|25|Sleep|||||
+299|Move|1825, 617, 0|1|0|Click|||||
+300|WinActivate||1|0|WinActivate||MeshLab 2016.12 - [Project_1] ahk_class Qt5QWindowIcon|||
+301|Enter|{Enter}|1|0|Send|||||
+302|[Pause]||1|25|Sleep|||||
+303|LControl Down|{LControl Down}|1|0|Send|||||
+304|[Pause]||1|25|Sleep|||||
+305|q|{q}|1|0|Send|||||
+306|[Pause]||1|25|Sleep|||||
+307|LControl Up|{LControl Up}|1|0|Send|||||
+308|[Pause]||1|200|Sleep|||||
+

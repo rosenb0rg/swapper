@@ -1,0 +1,38 @@
+** need to automate obj to png process
+** add file renaming into extractor to normalize the png files\
+** some kind of stablizing in faceswap_mod
+** faceswapmod on gpu?
+** make CLI shortcut for training
+
+
+
+# get vertices from a character and target shot number
+# use bash alias vert='python /c/local/src/PRNet/out_vert.py'
+
+	source activate prnet
+	vert -c raupach -t 001
+
+loop
+	
+	for i in {001...010}; do vert -c raupach -t $i; done
+
+# repose faces from source footage
+
+	source activate prnet
+	repose -s raupach -c richardson -S 001 -t 01
+
+# crop reposed faces for neural net
+
+	for i in {001..010}; do extract -s raupach -c judgeC -S $i -t 00b; done
+
+# run a conversion
+
+	for i in {008..010}; do convert -s raupach -c judgeC -S 004 -t 00b; done
+
+# recomposed onto aligned faces
+
+	for i in {008..010}; do replace -s raupach -c judgeC -S $i -t 00b; done
+
+
+#faceswap onto target shot
+	swapmod
