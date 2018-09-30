@@ -2,3 +2,4 @@
 ./Data/shape_predictor_68_face_landmarks.dat
 ./faceswap/lib/face_alignment/.cache/2DFAN-4.h5
 ./__pycache__/
+./big_stuff
