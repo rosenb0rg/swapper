@@ -47,10 +47,11 @@ def main(args):
     scene = str(args.scene)
     source = str(args.source)
     targ = str(args.target)
+    crop_mode = args.crop_mode
 
     if mode or char or scene or source or targ is not None:
         character = Character(char, scene, source, targ)
-        runn(mode, character)
+        runn(mode, character, crop_mode)
     else:
         welcome()
 
@@ -67,7 +68,7 @@ def welcome():
     runn(mode, character)
 
 
-def runn(mode, character):
+def runn(mode, character, crop_mode):
     if mode == 'vert':
         out_vert.main(character)
 
@@ -78,7 +79,7 @@ def runn(mode, character):
         mesh.main(character)
 
     if mode == 'crop':
-        extractor.main(character, 0)
+        extractor.main(character, crop_mode)
 
     if mode == 'convert':
         convert.main(character)
@@ -97,13 +98,16 @@ def over_dir(function):
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description="Tom's Swapper!")
+    help_text = """Welcome to the swapper. First pick what mode you want to use: vert will extract reference vertices given a character and a target shot. repose will create 3D oject from a source shot, and rotate to match the orientation of the target face, and save that as an obj. mesh will loop a macro to open each of these OBJ files and save a png."""
+
+    parser = argparse.ArgumentParser(description=help_text)
 
     parser.add_argument('--mode', '-m', type=str, nargs='?', help='mode: repose, vertices, etc.')
     parser.add_argument('--character', '-c', type=str, nargs='?', help='character name')
     parser.add_argument('--scene', '-s', type=str, nargs='?', help='scene name')
     parser.add_argument('--source', '-S', type=str, nargs='?', help='source number')
     parser.add_argument('--target', '-t', type=str, nargs='?', help='target number')
+    parser.add_argument('--crop_mode', '-C', type=str, nargs='?', help='crop mode', default=0)
 
     args = parser.parse_args()
 

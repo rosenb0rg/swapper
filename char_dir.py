@@ -15,29 +15,29 @@ class Character:
         self.source = source
         # 03b
         self.target = target
-        
+
         # raupach_judgeC_s003_t03b
         self.full_name = scene + "_" + name +"_s" + str(source) + "_t" + str(target)
-        
+
         # D:/characters/judgeC/
         self.basedir = os.path.join(base, 'characters', self.name)
-        
+
         # D:/characters/judgeC/face/
         self.facedir = os.path.join(self.basedir, 'face')
-        
+
         # D:/characters/judgeC/src/align
         self.aligndir = os.path.join(self.basedir, 'src', 'align')
-        
+
         # D:/characters/judgeC/src/comp
         self.compdir = os.path.join(self.basedir, 'src', 'comp')
-        
+
         # D:/source/raupach/judgeC/raupach_judgeC_001
         self.srcdir = os.path.join(base, 'source', self.scene, self.name, self.scene + '_' + self.name + '_' + self.source )
-        
+
         # D:/characters/judgeC/vertices/raupach_t10
         self.vertdir = os.path.join(self.basedir, 'vertices', self.name + "_t" + self.target)
-        
-        
+
+
         # subdirectories for align workflow elements
         # D:/characters/judgeC/src/align/<full name>/obj
         self.align_obj_dir = os.path.join(self.aligndir, self.full_name, 'obj')
@@ -69,10 +69,10 @@ class Character:
         self.imgA_dir = os.path.join(base, 'source', '00_training', 'crop')
         
         # D:/characters/judgeC/df/imgB
-        self.imgB_dir = os.path.join(self.basedir, 'df', 'imgB_crop')
+        self.imgB_dir = os.path.join(self.basedir, 'df', 'imgB')
         
         # D:/characters/judgeC/df/imgB_crop
-        self.imgB_crop_dir = os.path.join(self.basedir, 'df', 'imgB')
+        self.imgB_crop_dir = os.path.join(self.basedir, 'df', 'imgB_crop')
 
 if __name__ == "__main__":
     x = Character('judgeC', 'raupach', '001', '00b')

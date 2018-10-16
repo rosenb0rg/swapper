@@ -77,7 +77,7 @@ def main(character, mode_num=0):
 
                 image = image[y:y+h, x:x+w]
             
-                # write over the exiting image with the cropped one
+                # write over the existing image with the cropped one
                 cv2.imwrite(image_path, image)
 
                 # redetect mouth points to extract just the mouth

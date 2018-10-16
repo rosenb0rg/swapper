@@ -4,7 +4,7 @@ from char_dir import Character
 
 def main(character):
     imgA_dir = character.imgA_dir
-    imgB_dir = character.imgB_dir
+    imgB_dir = character.imgB_crop_dir
     model_dir = character.model_dir	
 
     print ('imgA dir\n', imgA_dir,'imgB dir\n', imgB_dir, model_dir)
