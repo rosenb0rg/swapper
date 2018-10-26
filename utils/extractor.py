@@ -198,7 +198,7 @@ def main(character, mode_num=0):
 
             except:
                 print ('oh no!')
-                raise
+                pass
 
         try:
             with open('%s/alignments.json' % out_dir, 'w') as outfile:
